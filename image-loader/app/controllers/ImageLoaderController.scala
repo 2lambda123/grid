@@ -90,13 +90,18 @@ class ImageLoaderController(auth: Authentication,
       val uploadStatus = if(config.uploadToQuarantineEnabled) StatusType.Pending else StatusType.Completed
       val uploadExpiry = Instant.now.getEpochSecond + config.uploadStatusExpiry.toSeconds
       val record = UploadStatusRecord(req.body.digest, filename, uploadedByToRecord, printDateTime(uploadTimeToRecord), identifiers, uploadStatus, None, uploadExpiry)
+
+      val useVips = req.cookies.get("feature-switch-vips-beta").exists(_.value == "true")
+
+      println("in controller userVips = " + useVips)
       val result = for {
         uploadRequest <- uploader.loadFile(
           req.body,
           uploadedByToRecord,
           identifiers,
           uploadTimeToRecord,
-          filename.flatMap(_.trim.nonEmptyOpt)
+          filename.flatMap(_.trim.nonEmptyOpt),
+          useVips = useVips
         )
         _ <- uploadStatusTable.setStatus(record)
         result <- quarantineOrStoreImage(uploadRequest)
@@ -132,8 +137,10 @@ class ImageLoaderController(auth: Authentication,
       implicit val context: LogMarker = initialContext ++ Map(
         "requestId" -> RequestLoggingFilter.getRequestId(req)
       )
+      val useVips = req.cookies.get("feature-switch-vips-beta").exists(_.value == "true")
+
       val onBehalfOfFn: OnBehalfOfPrincipal = auth.getOnBehalfOfPrincipal(req.user)
-      val result = projector.projectS3ImageById(imageId, tempFile, gridClient, onBehalfOfFn)
+      val result = projector.projectS3ImageById(imageId, tempFile, gridClient, onBehalfOfFn, useVips)
 
       result.onComplete( _ => Try { deleteTempFile(tempFile) } )
 
@@ -178,6 +185,8 @@ class ImageLoaderController(auth: Authentication,
       } yield digestedFile
 
       val uploadedByForImport = uploadedBy.getOrElse(Authentication.getIdentity(request.user))
+      val useVips = request.cookies.get("feature-switch-vips-beta").exists(_.value == "true")
+
 
       val importResult: Future[Result] = for {
         digestedFile <- digestedFileFuture
@@ -189,6 +198,7 @@ class ImageLoaderController(auth: Authentication,
           maybeStatus.flatMap(_.identifiers).orElse(identifiers),
           DateTimeUtils.fromValueOrNow(maybeStatus.map(_.uploadTime).orElse(uploadTime)),
           maybeStatus.flatMap(_.fileName).orElse(filename).flatMap(_.trim.nonEmptyOpt),
+          useVips
         )
         result <- uploader.storeFile(uploadRequest)
       } yield {
