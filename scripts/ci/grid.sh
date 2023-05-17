@@ -54,7 +54,10 @@ buildSbt() {
   curl -fLso libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz 'https://github.com/andrew-nowak/sharp-libvips/releases/download/v0.1-alpha.1/libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz'
   tar xf libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz
   mkdir -p cropper/conf/linux-aarch64
-  mv libvips.so cropper/conf/linux-aarch64/libvips.so
+  cp libvips.so cropper/conf/linux-aarch64/libvips.so
+  mkdir -p image-loader/conf/linux-aarch64
+  cp libvips.so image-loader/conf/linux-aarch64/libvips.so
+  rm libvips.so
   rm libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz
   echo "##teamcity[compilationFinished compiler='get-good-libvips']"
   echo "##teamcity[compilationStarted compiler='sbt-spam']"
