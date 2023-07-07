@@ -51,14 +51,13 @@ buildWatcher() {
 
 buildSbt() {
   echo "##teamcity[compilationStarted compiler='get-good-libvips']"
-  curl -fLso libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz 'https://github.com/andrew-nowak/sharp-libvips/releases/download/v0.1-alpha.1/libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz'
-  tar xf libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz
+  mydir="$(mktemp -d)"
+  curl -fLso- 'https://github.com/kleisauke/libvips-packaging/releases/download/v8.12.2/libvips-8.12.2-linux-arm64.tar.gz' | tar xC $mydir
   mkdir -p cropper/conf/linux-aarch64
-  cp libvips.so cropper/conf/linux-aarch64/libvips.so
+  cp $mydir/lib/libvips.so.42 cropper/conf/linux-aarch64/libvips.so
   mkdir -p image-loader/conf/linux-aarch64
-  cp libvips.so image-loader/conf/linux-aarch64/libvips.so
-  rm libvips.so
-  rm libvips-static-c-v0.1-alpha-1-linux-aarch64.tar.xz
+  cp $mydir/lib/libvips.so.42 image-loader/conf/linux-aarch64/libvips.so
+  rm -rf $mydir
   echo "##teamcity[compilationFinished compiler='get-good-libvips']"
   echo "##teamcity[compilationStarted compiler='sbt-spam']"
   sbt clean update
