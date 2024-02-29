@@ -2,7 +2,7 @@ repo_name: 2lambda123/grid
 report_id: e9134169e17c65b2392fcc29e657108c
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T08:09:17+00:00'
+timestamp: '2024-02-29T19:19:37+00:00'
 requested_by: 2lambda123
 provider: github
 branch: main
@@ -277,7 +277,7 @@ tools:
   last_updated_by: Akash Askoolum
   last_updated_on: 2020-04-17 10:22:43.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.1.2
   license: MIT
@@ -316,7 +316,7 @@ tools:
   last_updated_by: Ara Cho
   last_updated_on: 2023-06-01 12:25:58.000000000 Z
 - name: Sentry
-  description: 'See performance issues, fix errors faster, and optimize code health. '
+  description: See performance issues, fix errors faster, and optimize code health.
   website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
   open_source: true
   hosted_saas: true
@@ -688,6 +688,12 @@ tools:
   last_updated_by: Tom Richards
   last_updated_on: 2023-10-30 12:55:07.000000000 Z
   vulnerabilities:
+  - name: angular vulnerable to super-linear runtime due to backtracking
+    cve_id: CVE-2024-21490
+    cve_url: https://github.com/advisories/GHSA-4w4v-5hc9-xrr2
+    detected_date: Feb 14
+    severity: high
+    first_patched: 
   - name: angular vulnerable to regular expression denial of service via the $resource
       service
     cve_id: CVE-2023-26117
