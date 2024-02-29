@@ -3,37 +3,37 @@
 ## Tech Stack
 2lambda123/grid is built on the following main stack:
 
-- [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
-- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [Python](https://www.python.org) – Languages
 - [Java](https://www.java.com) – Languages
-- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- [Scala](http://www.scala-lang.org/) – Languages
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [NGINX](http://nginx.org) – Web Servers
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Python](https://www.python.org) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [Scala](http://www.scala-lang.org/) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
-- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
 - [Akka](http://akka.io/) – Concurrency Frameworks
-- [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
-- [Babel](http://babeljs.io/) – JavaScript Compilers
-- [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
-- [Logback](https://logback.qos.ch/) – Log Management
-- [ESLint](http://eslint.org/) – Code Review
-- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- [ScalaTest](http://www.scalatest.org) – Testing Frameworks
+- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [Preact](http://developit.github.io/preact/) – Javascript UI Libraries
 - [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- [Cerebro](https://cerebroapp.com) – Application Launcher
-- [Prettier](https://prettier.io/) – Code Review
+- [React](https://reactjs.org/) – Javascript UI Libraries
 - [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Babel](http://babeljs.io/) – JavaScript Compilers
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [ESLint](http://eslint.org/) – Code Review
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- [Logback](https://logback.qos.ch/) – Log Management
+- [NGINX](http://nginx.org) – Web Servers
+- [Prettier](https://prettier.io/) – Code Review
+- [ScalaTest](http://www.scalatest.org) – Testing Frameworks
+- [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
+- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
+- [Cerebro](https://cerebroapp.com) – Application Launcher
+- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
+- [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -43,37 +43,37 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/grid is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png' alt='Sentry'/> [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
-- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1012/scala.png' alt='Scala'/> [Scala](http://www.scala-lang.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1012/scala.png' alt='Scala'/> [Scala](http://www.scala-lang.org/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/1773/bxLhidly.png' alt='Akka'/> [Akka](http://akka.io/) – Concurrency Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1909/aws-lambda.png' alt='AWS Lambda'/> [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
-- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Immutable.js'/> [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='Logback'/> [Logback](https://logback.qos.ch/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/4371/frame_apngframe0.png' alt='ScalaTest'/> [ScalaTest](http://www.scalatest.org) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/4388/preact.png' alt='Preact'/> [Preact](http://developit.github.io/preact/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png' alt='Protobuf'/> [Protobuf](https://developers.google.com/protocol-buffers/) – Serialization Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/6389/T_J_VhL1_400x400.jpg' alt='Cerebro'/> [Cerebro](https://cerebroapp.com) – Application Launcher
-- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='Logback'/> [Logback](https://logback.qos.ch/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4371/frame_apngframe0.png' alt='ScalaTest'/> [ScalaTest](http://www.scalatest.org) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png' alt='Sentry'/> [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
+- <img width='25' height='25' src='https://img.stackshare.io/service/1909/aws-lambda.png' alt='AWS Lambda'/> [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
+- <img width='25' height='25' src='https://img.stackshare.io/service/6389/T_J_VhL1_400x400.jpg' alt='Cerebro'/> [Cerebro](https://cerebroapp.com) – Application Launcher
+- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Immutable.js'/> [Immutable.js](http://facebook.github.io/immutable-js/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -84,7 +84,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/grid](https://github.com/2lambda123/grid)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|85<br/>Tools used|01/09/24 <br/>Report generated|
+|85<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -440,7 +440,7 @@ Full tech stack [here](/techstack.md)
 |[@types/uuid](https://www.npmjs.com/@types/uuid)|v9.0.0|12/12/22|Rhys Mills |MIT|N/A|
 |[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v5.9.1|12/12/22|Rhys Mills |MIT|N/A|
 |[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v5.9.1|12/12/22|Rhys Mills |BSD-2-Clause|N/A|
-|[angular](https://www.npmjs.com/angular)|v1.8.3|10/30/23|Tom Richards |MIT|[CVE-2023-26117](https://github.com/advisories/GHSA-2qqx-w9hr-q5gx) (Moderate)<br/>[CVE-2023-26116](https://github.com/advisories/GHSA-2vrf-hf26-jrp5) (Moderate)<br/>[CVE-2022-25869](https://github.com/advisories/GHSA-prc3-vjfx-vhm9) (Moderate)<br/>[CVE-2022-25844](https://github.com/advisories/GHSA-m2h2-264f-f486) (Moderate)<br/>[CVE-2023-26118](https://github.com/advisories/GHSA-qwqh-hm9m-p5hr) (Moderate)|
+|[angular](https://www.npmjs.com/angular)|v1.8.3|10/30/23|Tom Richards |MIT|[CVE-2024-21490](https://github.com/advisories/GHSA-4w4v-5hc9-xrr2) (High)<br/>[CVE-2023-26117](https://github.com/advisories/GHSA-2qqx-w9hr-q5gx) (Moderate)<br/>[CVE-2023-26116](https://github.com/advisories/GHSA-2vrf-hf26-jrp5) (Moderate)<br/>[CVE-2022-25869](https://github.com/advisories/GHSA-prc3-vjfx-vhm9) (Moderate)<br/>[CVE-2022-25844](https://github.com/advisories/GHSA-m2h2-264f-f486) (Moderate)<br/>[CVE-2023-26118](https://github.com/advisories/GHSA-qwqh-hm9m-p5hr) (Moderate)|
 |[angular-animate](https://www.npmjs.com/angular-animate)|v1.8.3|10/30/23|Tom Richards |MIT|N/A|
 |[angular-messages](https://www.npmjs.com/angular-messages)|v1.8.3|10/30/23|Tom Richards |MIT|N/A|
 |[angular-ui-bootstrap](https://www.npmjs.com/angular-ui-bootstrap)|v2.5.6|10/30/23|Tom Richards |MIT|N/A|
